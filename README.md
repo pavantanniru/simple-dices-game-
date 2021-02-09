@@ -7,3 +7,4 @@ This is the basics of js(java _script)🤍  how to interact with static web_page
   See below ... >> 👁‍
   
  
+![final-commit](https://github.com/pavantanniru/simple-dices-game-/blob/main/2021-02-09%20(4).png?raw=true)
