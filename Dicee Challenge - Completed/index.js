@@ -3,7 +3,26 @@ var randomNumber1= Math.floor(Math.random() * 6) + 1;
 
 var randomNumber2 = Math.floor(Math.random() *6) + 1;
 
+var firsPne='';
+var sndPne='';
 
+
+
+function editNames() {
+
+   firsPne = prompt("Enter the first player name : ")
+   sndPne = prompt("Enter the second player name : ")
+
+   document.querySelectorAll('.p1')[0].innerHTML=firsPne;
+   document.querySelectorAll('.p1')[1].innerHTML=sndPne;
+
+
+}
+
+
+
+
+function rolltheDice(){
 
 
 document.querySelector(".img1").setAttribute('src',"images/dice"+randomNumber1+'.png');
@@ -21,4 +40,6 @@ else if (randomNumber2>randomNumber1) {
 
 else {
   document.querySelector('h1').innerHTML='Draw!';
+}
+
 }
